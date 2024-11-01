@@ -1,0 +1,3 @@
+fast api
+google-generativeai
+uvicorn app:app
