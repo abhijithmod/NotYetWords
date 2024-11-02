@@ -54,3 +54,12 @@ ui with input and output
 https://github.com/user-attachments/assets/8d02868f-ced3-476d-8c58-6f8d777e2233
 
 demo video
+
+
+
+<br>
+<h3>Team contributions</h3>
+
+Abhijith M : front end design, api
+Akhin V : design elements
+Vaishnav SK : javascript
