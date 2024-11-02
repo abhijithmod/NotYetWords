@@ -35,6 +35,8 @@ FastAPI Backend with Gemini: Utilizes google’s language model to create respon
 <br>
 <br>
 
+<h3>installation</h3>
+<br>
 
 
 
