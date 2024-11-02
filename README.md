@@ -38,6 +38,7 @@ FastAPI Backend with Gemini: Utilizes google’s language model to create respon
 <h3>installation</h3>
 <br>
 
+pip install -r requirements.txt
 
 
 
