@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import google.generativeai as genai
 from google.generativeai import GenerativeModel
-
+from fastapi.staticfiles import StaticFiles
 # Configure Gemini API (replace with your API key)
 genai.configure(api_key="AIzaSyDkAfPr2MhxSVfHE39ZDfPUzSiIq7Bktbo")
 model = GenerativeModel("gemini-1.5-flash")  # Replace with your preferred Gemini model version
@@ -36,3 +36,5 @@ async def get_creative_response(prompt: str) -> str:
 async def generate_phrase(request: PromptRequest):
     response_text = await get_creative_response(request.prompt)
     return {"response": response_text}
+
+app.mount("/", StaticFiles(directory="static", html=True), name="static")
