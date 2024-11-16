@@ -5,7 +5,7 @@ async function generatePhrase() {
 
     if (promptInput) {
         try {
-            const response = await fetch("http://127.0.0.1:8000/generate-phrase", {
+            const response = await fetch("https://notyetwords.onrender.com/generate-phrase", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
