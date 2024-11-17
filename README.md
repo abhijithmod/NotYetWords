@@ -10,7 +10,7 @@
 
 
 <h3>NotYetWords</h3>
-
+[Hosted Project Link](https://notyetwords.onrender.com/)
 NotYetWords is a fun, creative tool that allows users to invent new, meaningful words for experiences, ideas, or feelings that don't yet have a name. Inspired by a love of language and the gaps in our vocabulary, this app uses the power of AI to generate unique, whimsical words based on user input.
 
 <h4>the problem :</h4> 
