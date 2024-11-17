@@ -18,7 +18,7 @@ app.add_middleware(
     allow_methods=["*"],  # Allows all methods
     allow_headers=["*"],  # Allows all headers
 )
-app.mount("/", StaticFiles(directory="static", html=True), name="static")
+
 class PromptRequest(BaseModel):
     prompt: str
 
@@ -37,3 +37,4 @@ async def generate_phrase(request: PromptRequest):
     response_text = await get_creative_response(request.prompt)
     return {"response": response_text}
 
+app.mount("/", StaticFiles(directory="static", html=True), name="static")
